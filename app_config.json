@@ -1,0 +1,40 @@
+{
+  "app_info": {
+    "name": "PDF Image Converter",
+    "version": "2.0.0",
+    "description": "Convertidor profesional de PDF e imágenes con arquitectura MVC",
+    "author": "PDF Converter Team",
+    "license": "MIT"
+  },
+  "default_settings": {
+    "last_output_directory": "",
+    "theme": "default",
+    "color_conversion_quality": "high",
+    "merge_default_option": "orden_seleccion",
+    "window_geometry": "950x750",
+    "auto_save_settings": true,
+    "show_tooltips": true,
+    "remember_file_locations": true
+  },
+  "supported_formats": {
+    "input": {
+      "pdf": [".pdf"],
+      "images": [".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".gif"]
+    },
+    "output": {
+      "pdf": ".pdf",
+      "images": ["_BW", "_Sepia"]
+    }
+  },
+  "conversion_options": {
+    "image_quality": {
+      "low": 150,
+      "medium": 200,
+      "high": 300
+    },
+    "pdf_compression": {
+      "enabled": true,
+      "level": "medium"
+    }
+  }
+}
